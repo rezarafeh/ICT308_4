@@ -111,7 +111,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </head>
     <body>
         <div class="container">
-            <h1>Sign In</h1>
+            <h1>Login</h1>
             <?php 
 				      if(!empty($login_err)){
 					          echo '<div class="alert alert-danger">' . $login_err . '</div>';
